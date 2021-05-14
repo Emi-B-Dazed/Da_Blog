@@ -1,5 +1,9 @@
 {
   "name": "Da_Blog",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.37.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
