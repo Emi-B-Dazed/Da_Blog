@@ -1,0 +1,10 @@
+<% provide(:page_title, 'New Project') %>
+<% provide(:author, 'active') %>
+
+<h1>New Project</h1>
+
+<%= render 'form', post: @post%>
+
+
+<%= link_to 'Back', author_posts_path %>
+

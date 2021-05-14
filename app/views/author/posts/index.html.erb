@@ -1,0 +1,9 @@
+<% provide(:page_title, 'All Projects') %>
+<% provide(:author, 'active') %>
+
+<div class="row">
+  <%= link_to 'New Post', new_author_post_path, class: 'btn btn-primary btn-lg'%>
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <% end %>
+</div>

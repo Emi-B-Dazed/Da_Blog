@@ -1,0 +1,8 @@
+<% provide(:page_title, 'All Projects') %>
+<% provide(:blog_active, 'active') %>
+
+<div class="row">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <% end %>
+</div>
