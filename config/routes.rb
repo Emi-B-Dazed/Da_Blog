@@ -12,4 +12,3 @@ Rails.application.routes.draw do
     get 'author/posts/:id' => 'posts#show', as: :post 
   end
 end
- 
