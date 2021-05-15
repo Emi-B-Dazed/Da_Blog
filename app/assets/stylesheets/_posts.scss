@@ -1,33 +1,33 @@
-.posts.index {
+
   .card {
-    border: none;
-    border-radius: 0;
-    height: 400px;
+
+    height: 150px;
     margin-bottom: 20px;
-    background-color: white;
-    .card-topper {
-      height: 200px;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-    }
     .card-block {
-      padding: 10px;
+      border-left: solid;
+      border-left-color: black;
+      border-top-left-radius: 5px;
+      border-bottom: solid;
+      border-bottom-left-radius: 5px;
+      padding: 15px;
+      background-color: rgb(233, 231, 231);
       .card-title {
-        font-size: 1.3rem;
+        font-size: 2rem;
         margin-bottom: 0;
         a {
           color: black;
+          text-decoration: none;
         }
       }
       .card-text {
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: black;
       }
 
     }
   }
-}
+
+
 
 .posts.edit, .posts.new {
   .card {
@@ -56,27 +56,7 @@
   }
 }
 
-.posts.show {
-  .author-bio {
-    background-color: white;
-    padding: 15px 45px;
-    margin: 30px 0;
-    img {
-      border-radius: 50%;
-    }
-    img, h4 {
-      margin-bottom: 10px;
-    }
-    h4 {
-      font-weight: bold;
-      font-size: 22px;
-    }
-    h6 {
-      font-weight: 300;
-      font-size: 16px
-    }
-  }
-}
+
 
 @media screen and (min-width: 34em) {
   .posts.index .card {

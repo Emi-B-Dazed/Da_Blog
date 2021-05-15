@@ -1,3 +1,7 @@
+ /*
+ *= require_tree .
+ *= require_self
+ */
 @import "navbar";
 @import "posts";
 // Custom bootstrap variables must be set or imported *before* bootstrap.

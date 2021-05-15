@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :models
   root to: 'blog/posts#index'
 
   namespace :author do
